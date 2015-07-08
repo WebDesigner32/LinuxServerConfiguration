@@ -237,13 +237,13 @@ Type in:
 
 Paste in:
 <pre><code>
- `from flask import Flask`
- `app = Flask(__name__)`
- `@app.route("/")`
- `def hello():`
-     `return "Hello, I love Digital Ocean!"
- `if __name__ == "__main__":`
-     `app.run()`
+ from flask import Flask
+ app = Flask(__name__)
+ @app.route("/")
+ def hello():
+     return "Hello, I love Digital Ocean!"
+ if __name__ == "__main__":
+     app.run()
 </code></pre>
 Type in:
 
@@ -283,24 +283,25 @@ Type in:
 
 Inside that file, paste in:
 
-`<VirtualHost *:80>`
-                `ServerName PUBLICIPADDRESSGOESHERE`
-                `ServerAdmin admin@PUBLICIPADDRESSGOESHERE`
-                `WSGIScriptAlias / /var/www/catalog/catalog.wsgi`
-                `<Directory /var/www/catalog/catalog/>`
-                        `Order allow,deny`
-                        `Allow from all`
-                `</Directory>`
-                `Alias /static /var/www/catalog/catalog/static`
-                `<Directory /var/www/catalog/catalog/static/>`
-                        `Order allow,deny`
-                        `Allow from all`
-                `</Directory>`
-                `ErrorLog ${APACHE_LOG_DIR}/error.log`
-                `LogLevel warn`
-                `CustomLog ${APACHE_LOG_DIR}/access.log combined`
-`</VirtualHost>`
-
+<pre><code>
+<VirtualHost *:80>
+                ServerName PUBLICIPADDRESSGOESHERE
+                ServerAdmin admin@PUBLICIPADDRESSGOESHERE
+                WSGIScriptAlias / /var/www/catalog/catalog.wsgi
+                <Directory /var/www/catalog/catalog/>
+                        Order allow,deny
+                        Allow from all
+                </Directory>
+                Alias /static /var/www/catalog/catalog/static
+                <Directory /var/www/catalog/catalog/static/>
+                        Order allow,deny
+                        Allow from all
+                </Directory>
+                ErrorLog ${APACHE_LOG_DIR}/error.log
+                LogLevel warn
+                CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+</code></pre>
 Save changes and exit.
 
 Type in:
@@ -317,15 +318,16 @@ Type in:
 
 Paste in:
 
-`#!/usr/bin/python`
-`import sys`
-`import logging`
-`logging.basicConfig(stream=sys.stderr)`
-`sys.path.insert(0,"/var/www/catalog/")`
+<pre><code>
+#!/usr/bin/python
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/catalog/")
 
-`from catalog import app as application`
-`application.secret_key = 'Add your secret key'`
-
+from catalog import app as application
+application.secret_key = 'Add your secret key'
+</code></pre>
 Save changes and exit.
 
 Type in:
