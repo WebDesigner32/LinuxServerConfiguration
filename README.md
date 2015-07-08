@@ -98,7 +98,7 @@ and continue with the upgrade process.
 
 3. Replace `without-password` with `no` for `PermitRootLogin`.
 
-4. Replace `no` with `yes` for `Password Authentication`.
+4. Replace `no` with `yes` for `PasswordAuthentication`.
 
 5. At the bottom of the file, type in:
 
@@ -135,7 +135,7 @@ and continue with the upgrade process.
 
 `sudo nano /etc/ssh/sshd_config`
 
-14. Replace `yes` with `no` for `Password Authentication`.
+14. Replace `yes` with `no` for `PasswordAuthentication`.
 
 15. Save changes and exit.
 
