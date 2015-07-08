@@ -50,13 +50,13 @@ to the Downloads folder, just execute the following command in your terminal:
 
 `ssh -i ~/.ssh/udacity_key.rsa root@PUBLICIPADDRESSGOESHERE`
 
-**3. Create a new user named `grader`
+**3. Create a new user named `grader`**
 
 1. To make a user, type in:
 
 `adduser grader`
 
-**4. Give the grader the permission to sudo
+**4. Give the grader the permission to sudo**
 
 1. Type in:
 
@@ -69,7 +69,7 @@ to the Downloads folder, just execute the following command in your terminal:
 3. To save changes and exit, type in: `CTRL+X`, then `Shift+Y`, followed by
 `Enter`. Use this to save changes and exit all added features of this project!
 
-**5. Update all currently installed packages
+**5. Update all currently installed packages**
 
 1. Switch to the new user `grader` by typing in:
 
@@ -157,7 +157,7 @@ connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)**
 
 `sudo ufw allow 123/udp`
 
-**8. Configure the local timezone to UTC
+**8. Configure the local timezone to UTC**
 
 1. Type in:
 
@@ -379,7 +379,7 @@ to make the .git directory not publicly accessible from the browser.
 
 `sudo apt-get install python-psycopg2`
 
-**10. Install and configure PostgreSQL:
+**10. Install and configure PostgreSQL:**
 
 1. Type in:
 
