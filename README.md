@@ -12,7 +12,8 @@ From `~ $`, access the server by typing in the following:
 
 `ssh -v grader@52.27.40.156 -p2200`, and then click `Enter`.
 
-Once this is complete, you must provide the password, which is: `bell24OK`.
+Once this is complete, you must provide the password. You must request it from
+me personally if I have not already provided it to you.
 Once provided, click `Enter`. You are now logged in!
 
 From there, you can access the same functionality from the project for my repo
