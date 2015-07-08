@@ -131,6 +131,8 @@ To sign in as `grader` when closing out of the Terminal, type in:
 
 `ssh -v grader@PUBLICIPADDRESSGOESHERE -p2200`
 
+and then use the password I provided.
+
 In `grader`, type in:
 
 `sudo nano /etc/ssh/sshd_config`
