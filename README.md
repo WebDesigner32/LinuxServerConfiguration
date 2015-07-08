@@ -236,7 +236,7 @@ Type in:
 `sudo nano __init__.py`
 
 Paste in:
-
+<pre><code>
  `from flask import Flask`
  `app = Flask(__name__)`
  `@app.route("/")`
@@ -244,7 +244,7 @@ Paste in:
      `return "Hello, I love Digital Ocean!"
  `if __name__ == "__main__":`
      `app.run()`
-
+</code></pre>
 Type in:
 
 `sudo apt-get install python-pip`
