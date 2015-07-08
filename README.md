@@ -74,17 +74,17 @@ to the Downloads folder, just execute the following command in your terminal:
 
 1. Switch to the new user `grader` by typing in:
 
-`su - grader`.
+`su - grader`
 
 2. Type in:
 
-`sudo apt-get update`,
+`sudo apt-get update`
 
 and continue with the update process.
 
 3. Type in:
 
-`sudo apt-get upgrade`,
+`sudo apt-get upgrade`
 
 and continue with the upgrade process.
 
@@ -174,7 +174,7 @@ connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)**
 
 `sudo apt-get install apache2`
 
-2. Go to `http://PUBLICIPADDRESSGOESHERE/ in your browser. You will see a
+2. Go to `http://PUBLICIPADDRESSGOESHERE/` in your browser. You will see a
 message that states "It works!" on the page.
 
 3. Type in:
@@ -201,7 +201,7 @@ message that states "It works!" on the page.
 
 4. Type in:
 
-sudo apt-get install libapache2-mod-wsgi python-dev
+`sudo apt-get install libapache2-mod-wsgi python-dev`
 
 5. You should have mod_wsgi enabled, but if it is not, type in:
 
@@ -259,7 +259,7 @@ sudo apt-get install libapache2-mod-wsgi python-dev
 
 17. Type in:
 
-`sudo chmod -R 777 venv`,
+`sudo chmod -R 777 venv`
 
 to enable all permissions.
 
@@ -350,13 +350,13 @@ to enable all permissions.
 
 36. Paste in:
 
-`RedirectMatch 404 /\.git`,
+`RedirectMatch 404 /\.git`
 
 to make the .git directory not publicly accessible from the browser.
 
 37. Save changes and exit.
 
-38.Type in:
+38. Type in:
 
 `source venv/bin/activate`
 
@@ -388,7 +388,7 @@ to make the .git directory not publicly accessible from the browser.
 
 2. Type in:
 
-`sudo nano /etc/postgresql/9.3/main/pg_hba.conf`,
+`sudo nano /etc/postgresql/9.3/main/pg_hba.conf`
 
 to check that there are no remote connections allowed.
 
@@ -412,8 +412,8 @@ to check that there are no remote connections allowed.
 `engine = create_engine(
 'postgresql://catalog:PASSWORDFORDBGOESHERE@localhost/catalog')`
 
-8. Anywhere you see fb_client_secrets.json or client_secrets.json, specify the
-absolute path in project.py.
+8. Anywhere you see `fb_client_secrets.json` or `client_secrets.json`, specify
+the absolute path in project.py.
 
 9. Save changes and exit.
 
@@ -482,7 +482,7 @@ absolute path in project.py.
 
 `python database_setup.py`
 
-*If you run into errors, you might need to make further installations specific
+If you run into errors, you might need to make further installations specific
 to the error(s) received.
 
 27. Type in:
@@ -495,39 +495,39 @@ to the error(s) received.
 
 `sudo service apache2 restart`
 
-2. Go to http://PUBLICIPADDRESSGOESHERE/ using your browser. The application
+2. Go to `http://PUBLICIPADDRESSGOESHERE/` using your browser. The application
 should be present!
 
 3. If you receive any errors, run:
 
-`sudo tail /var/log/apache2/error.log`.
+`sudo tail /var/log/apache2/error.log`
 
 Most errors should be quickly eliminated.
 
-4. Go to http://www.hcidata.info/host2ip.cgi in your browser and obtain your
+4. Go to `http://www.hcidata.info/host2ip.cgi` in your browser and obtain your
 host name and your Public IP Address.
 
 5. Find your project at the Google Developers Console:
 
-https://console.developers.google.com/project
+`https://console.developers.google.com/project`
 
 6. Go to `APIs & auth`, then `Credentials`, followed by `Edit settings`.
 
 7. Provide the host name and Public IP Address for JavaScript origins.
 
 8. Provide the host name and oauth2callback to Redirect URIs. For instance:
-http://ec2-52-27-40-156.us-west-2.compute.amazonaws.com/oauth2callback
+`http://ec2-52-27-40-156.us-west-2.compute.amazonaws.com/oauth2callback`.
 
 9. Update the changes.
 
-10. In your browser, go to https://developers.facebook.com/apps/.
+10. In your browser, go to `https://developers.facebook.com/apps/`.
 
 11. Click on the application.
 
 12. Go to `Settings`.
 
 13. Provide your Public IP Address in `Site URL` like so:
-http://PUBLICIPADDRESSGOESHERE/
+`http://PUBLICIPADDRESSGOESHERE/`
 
 14. Provide your Email Address in `Contact Email`.
 
@@ -540,30 +540,33 @@ available to the general public?`
 
 ##**Sources**##
 
-1. https://www.udacity.com/account#!/development_environment
-2. https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
-3. http://askubuntu.com/questions/94102/what-is-the-difference-between-apt-get-update-and-upgrade
-4. http://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server
-5. https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
-6. https://help.ubuntu.com/community/UFW
-7. http://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt
-8. http://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-mysql-python-ubuntu.html
-9. http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none
-10. http://askubuntu.com/questions/256013/could-not-reliably-determine-the-servers-fully-qualified-domain-name
-11. https://help.github.com/articles/set-up-git/#platform-linux
-12. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
-13. http://flask.pocoo.org/docs/0.10/quickstart/
-14. http://stackoverflow.com/questions/2643612/activate-a-python-virtual-environment-using-activate-this-py-in-a-fabfile-on-win
-15. http://stackoverflow.com/questions/20276895/could-not-create-work-tree-dir-example-com-permission-denied
-16. http://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command
-17. http://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible
-18.  https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
-19. http://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install
-20. http://blog.trackets.com/2013/08/19/postgresql-basics-by-example.html
-21. http://superuser.com/questions/769749/creating-user-with-password-or-changing-password-doesnt-work-in-postgresql
-22. http://stackoverflow.com/questions/10572498/importerror-no-module-named-sqlalchemy
-23. http://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg2
-24. http://stackoverflow.com/questions/12201928/python-open-method-ioerror-errno-2-no-such-file-or-directory
-25. http://www.hcidata.info/host2ip.cgi
-26. https://developers.google.com/identity/protocols/OAuth2
-27. Other articles read for knowledge boost.
+1. `https://www.udacity.com/account#!/development_environment`
+2. `https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps`
+3. `http://askubuntu.com/questions/94102/what-is-the-difference-between-apt-get-update-and-upgrade`
+4. `http://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server`
+5. `https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server`
+6. `https://help.ubuntu.com/community/UFW`
+7. `http://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt`
+8. `http://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-mysql-python-ubuntu.html`
+9. `http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none`
+10. `http://askubuntu.com/questions/256013/could-not-reliably-determine-the-servers-fully-qualified-domain-name`
+11. `https://help.github.com/articles/set-up-git/#platform-linux`
+12. `https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps`
+13. `http://flask.pocoo.org/docs/0.10/quickstart/`
+14. `http://stackoverflow.com/questions/2643612/activate-a-python-virtual-environment-using-activate-this-py-in-a-fabfile-on-win`
+15. `http://stackoverflow.com/questions/20276895/could-not-create-work-tree-dir-example-com-permission-denied`
+16. `http://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command`
+17. `http://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible`
+18. `https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps`
+19. `http://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install`
+20. `http://blog.trackets.com/2013/08/19/postgresql-basics-by-example.html`
+21. `http://superuser.com/questions/769749/creating-user-with-password-or-changing-password-doesnt-work-in-postgresql`
+22. `http://stackoverflow.com/questions/10572498/importerror-no-module-named-sqlalchemy`
+23. `http://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg2`
+24. `http://stackoverflow.com/questions/12201928/python-open-method-ioerror-errno-2-no-such-file-or-directory`
+25. `http://www.hcidata.info/host2ip.cgi`
+26. `https://developers.google.com/identity/protocols/OAuth2`
+27. `https://developers.facebook.com/apps/`
+28. `https://console.developers.google.com/project`
+29. `http://52.27.40.156/`
+30. Other articles and videos used to deepen understanding . . .
