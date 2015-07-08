@@ -57,7 +57,7 @@ to the Downloads folder, just execute the following command in your terminal:
 
 `adduser grader`
 
-**4. Give the grader the permission to sudo**
+**4. Give `grader` the permission to sudo**
 
 1. Type in:
 
@@ -114,7 +114,7 @@ and continue with the upgrade process.
 
  `/etc/init.d/ssh restart` or `restart ssh`
 
-9. Switch to user grader by typing in:
+9. Switch to user `grader` by typing in:
 
 `su - grader`
 
@@ -127,11 +127,11 @@ and continue with the upgrade process.
 `cat ~/.ssh/id_rsa.pub | ssh -p 2200 grader@REMOTEHOSTGOESHERE
 “mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys”`
 
-12. To sign in as grader when closing out of the Terminal, type in:
+12. To sign in as `grader` when closing out of the Terminal, type in:
 
 `ssh -v grader@PUBLICIPADDRESSGOESHERE -p2200`
 
-13. In grader, type in:
+13. In `grader`, type in:
 
 `sudo nano /etc/ssh/sshd_config`
 
