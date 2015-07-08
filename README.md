@@ -284,7 +284,7 @@ Type in:
 Inside that file, paste in:
 
 <pre><code>
-<VirtualHost *:80>
+        <VirtualHost *:80>
                 ServerName PUBLICIPADDRESSGOESHERE
                 ServerAdmin admin@PUBLICIPADDRESSGOESHERE
                 WSGIScriptAlias / /var/www/catalog/catalog.wsgi
@@ -300,7 +300,7 @@ Inside that file, paste in:
                 ErrorLog ${APACHE_LOG_DIR}/error.log
                 LogLevel warn
                 CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
+        </VirtualHost>
 </code></pre>
 Save changes and exit.
 
