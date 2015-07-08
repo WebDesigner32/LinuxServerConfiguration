@@ -283,7 +283,7 @@ Type in:
 
 Inside that file, paste in:
 
-<pre><code>
+```
 <VirtualHost *:80>
     ServerName PUBLICIPADDRESSGOESHERE
     ServerAdmin admin@PUBLICIPADDRESSGOESHERE
@@ -301,7 +301,7 @@ Inside that file, paste in:
     LogLevel warn
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-</code></pre>
+```
 Save changes and exit.
 
 Type in:
