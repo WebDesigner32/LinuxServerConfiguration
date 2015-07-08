@@ -139,7 +139,7 @@ and continue with the upgrade process.
 15. Save changes and exit.
 
 **7. Configure the Uncomplicated Firewall (UFW) to only allow incoming
-connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
+connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)**
 
 1. Type in:
 
