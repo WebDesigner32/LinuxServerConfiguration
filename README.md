@@ -345,11 +345,13 @@ Type in:
 
 Move the newly acquired Catalog directory to `/var/www/catalog/catalog`.
 
-Delete the extra empty directory.
+Delete the extra empty directory inside /var/www/catalog.
 
 Type in:
 
-`cd /var/www/catalog/`
+`cd /var/www/catalog/catalog`
+
+to access the root of the web server.
 
 Type in:
 
@@ -359,13 +361,9 @@ Paste in:
 
 `RedirectMatch 404 /\.git`
 
-to make the .git directory not publicly accessible from the browser.
+to prevent the .git directory from being publicly accessible in the browser.
 
 Save changes and exit.
-
-Type in:
-
-`cd catalog`
 
 Type in:
 
