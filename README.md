@@ -365,6 +365,10 @@ Save changes and exit.
 
 Type in:
 
+`cd catalog`
+
+Type in:
+
 `source venv/bin/activate`
 
 Type in:
