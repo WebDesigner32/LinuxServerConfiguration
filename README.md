@@ -330,6 +330,9 @@ sys.path.insert(0,"/var/www/catalog/")
 from catalog import app as application
 application.secret_key = 'Add your secret key'
 </code></pre>
+
+Be sure to provide a secret key of your choice.
+
 Save changes and exit.
 
 Type in:
