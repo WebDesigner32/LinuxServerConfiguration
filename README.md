@@ -547,33 +547,33 @@ available to the general public?`
 
 ##**Sources**##
 
-1. `https://www.udacity.com/account#!/development_environment`
-2. `https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps`
-3. `http://askubuntu.com/questions/94102/what-is-the-difference-between-apt-get-update-and-upgrade`
-4. `http://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server`
-5. `https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server`
-6. `https://help.ubuntu.com/community/UFW`
-7. `http://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt`
-8. `http://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-mysql-python-ubuntu.html`
-9. `http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none`
-10. `http://askubuntu.com/questions/256013/could-not-reliably-determine-the-servers-fully-qualified-domain-name`
-11. `https://help.github.com/articles/set-up-git/#platform-linux`
-12. `https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps`
-13. `http://flask.pocoo.org/docs/0.10/quickstart/`
-14. `http://stackoverflow.com/questions/2643612/activate-a-python-virtual-environment-using-activate-this-py-in-a-fabfile-on-win`
-15. `http://stackoverflow.com/questions/20276895/could-not-create-work-tree-dir-example-com-permission-denied`
-16. `http://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command`
-17. `http://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible`
-18. `https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps`
-19. `http://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install`
-20. `http://blog.trackets.com/2013/08/19/postgresql-basics-by-example.html`
-21. `http://superuser.com/questions/769749/creating-user-with-password-or-changing-password-doesnt-work-in-postgresql`
-22. `http://stackoverflow.com/questions/10572498/importerror-no-module-named-sqlalchemy`
-23. `http://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg2`
-24. `http://stackoverflow.com/questions/12201928/python-open-method-ioerror-errno-2-no-such-file-or-directory`
-25. `http://www.hcidata.info/host2ip.cgi`
-26. `https://developers.google.com/identity/protocols/OAuth2`
-27. `https://developers.facebook.com/apps/`
-28. `https://console.developers.google.com/project`
-29. `http://52.27.40.156/`
+1. `https://www.udacity.com/account#!/development_environment` (Steps 1 & 2)
+2. `https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps` (Steps 3 & 4)
+3. `http://askubuntu.com/questions/94102/what-is-the-difference-between-apt-get-update-and-upgrade` (Step 5)
+4. `http://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server` (Step 6)
+5. `https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server` (Step 6)
+6. `https://help.ubuntu.com/community/UFW` (Step 7)
+7. `http://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt` (Step 8)
+8. `http://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-mysql-python-ubuntu.html` (Step 9)
+9. `http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none` (Steps 9 & Onward)
+10. `http://askubuntu.com/questions/256013/could-not-reliably-determine-the-servers-fully-qualified-domain-name` (Steps 9 & Onward)
+11. `https://help.github.com/articles/set-up-git/#platform-linux` (Step 11)
+12. `https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps` (Step 11)
+13. `http://flask.pocoo.org/docs/0.10/quickstart/` (Step 11)
+14. `http://stackoverflow.com/questions/2643612/activate-a-python-virtual-environment-using-activate-this-py-in-a-fabfile-on-win` (Step 11)
+15. `http://stackoverflow.com/questions/20276895/could-not-create-work-tree-dir-example-com-permission-denied` (Step 11)
+16. `http://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command` (Step 11)
+17. `http://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible` (Step 11)
+18. `https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps` (Step 10)
+19. `http://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install` (Step 10)
+20. `http://blog.trackets.com/2013/08/19/postgresql-basics-by-example.html` (Step 10)
+21. `http://superuser.com/questions/769749/creating-user-with-password-or-changing-password-doesnt-work-in-postgresql` (Step 10)
+22. `http://stackoverflow.com/questions/10572498/importerror-no-module-named-sqlalchemy` (Step 10)
+23. `http://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg2` (Step 10)
+24. `http://stackoverflow.com/questions/12201928/python-open-method-ioerror-errno-2-no-such-file-or-directory` (Step 11)
+25. `http://www.hcidata.info/host2ip.cgi` (Step 11)
+26. `https://developers.google.com/identity/protocols/OAuth2` (Step 11)
+27. `https://console.developers.google.com/project` (Step 11)
+28. `https://developers.facebook.com/apps/` (Step 11)
+29. `http://52.27.40.156/` (Step 11)
 30. Other articles and videos used to deepen understanding . . .
