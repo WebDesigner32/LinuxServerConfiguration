@@ -1,5 +1,7 @@
 ##**Landon's Restaurant Menu App Linux Server Configuration**##
 
+![restaurant](https://cloud.githubusercontent.com/assets/10377920/8662637/bb5b9220-2976-11e5-8050-88e5304348c6.png)
+
 To view and use my completed project, please visit: `http://52.27.40.156/`.
 
 Ignoring Google+ due to my personal login information, log in with fb using
