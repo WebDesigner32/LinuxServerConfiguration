@@ -127,7 +127,7 @@ Type in:
 `cat ~/.ssh/id_rsa.pub | ssh -p 2200 grader@REMOTEHOSTGOESHERE
 “mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys”`
 
-To sign in as `grader` when closing out of the Terminal, type in:
+To sign in as `grader` after closing the Terminal, type in:
 
 `ssh -v grader@PUBLICIPADDRESSGOESHERE -p2200`
 
